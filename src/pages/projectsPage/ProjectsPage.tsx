@@ -12,6 +12,27 @@ const ProjectsPage = () => {
   const projects = [
     {
       name: 'Projeto clone Disney+',
+      img: disney,
+      default_message: 'Para visitar basta clicar no banner',
+      description: 'Projeto que reproduz o design responsivo do serviço de streaming do Disney +.',
+      link: 'https://gersuerdisneylayout.netlify.app/',
+      tecnologies: ['https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg', 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg', 'https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/tailwindcss/tailwindcss-plain.svg'
+      ]
+    },
+    {
+      name: 'Projeto Página da Uber',
+      img: uber,
+      default_message: 'Para visitar basta clicar no banner',
+      description: 'Projeto que visava criar uma página responsiva semelhante à webpage da empresa Uber.',
+      link: 'https://henriquestudyproject.netlify.app/',
+      tecnologies: [
+        'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/tailwindcss/tailwindcss-plain.svg'
+      ]
+    },
+    {
+      name: 'Qr Code',
       img: qrcode,
       default_message: 'Para visitar basta clicar no banner',
       description: 'Meu primeiro projeto, desafio do frontend mentor, que visa criar um card de QR code.',
@@ -19,7 +40,7 @@ const ProjectsPage = () => {
       tecnologies: ['https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg', 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg']
     },
     {
-      name: 'Projeto clone Disney+',
+      name: 'NFT card',
       img: nftcard,
       default_message: 'Para visitar basta clicar no banner',
       description: 'Outro projeto de quando comecei, que semelhante ao anterior visava criar um card, mas com um pouco de mais detalhes.',
@@ -56,27 +77,7 @@ const ProjectsPage = () => {
         'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg',
       ]
     },
-    {
-      name: 'Projeto clone Disney+',
-      img: disney,
-      default_message: 'Para visitar basta clicar no banner',
-      description: 'Projeto que reproduz o design responsivo do serviço de streaming do Disney +.',
-      link: 'https://gersuerdisneylayout.netlify.app/',
-      tecnologies: ['https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg', 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg', 'https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/tailwindcss/tailwindcss-plain.svg'
-      ]
-    },
-    {
-      name: 'Projeto Página da Uber',
-      img: uber,
-      default_message: 'Para visitar basta clicar no banner',
-      description: 'Projeto que visava criar uma página responsiva semelhante à webpage da empresa Uber.',
-      link: 'https://henriquestudyproject.netlify.app/',
-      tecnologies: [
-        'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg',
-        'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg',
-        'https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/tailwindcss/tailwindcss-plain.svg'
-      ]
-    },
+
     {
       name: 'Projeto Landing Page Fylo',
       img: frontend,
